@@ -6530,8 +6530,8 @@
         }
     }
 
-    window.intgrtn.loadjscssfile(window.intgrtn.options.server.endpoint + "/api/v1/integration/sdk.css?v=" + window.intgrtn.getVersion(), "css");
-
+    window.intgrtn.loadjscssfile("css/sdk.css", "css");
+    // window.intgrtn.options.server.endpoint + 
 
     var waitDocumentLoading = setInterval(function () {
         if (document.readyState == "loading") {
